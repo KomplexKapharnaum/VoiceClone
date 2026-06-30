@@ -1,0 +1,14 @@
+# secrets / local config
+.env
+
+# python env & caches
+.venv/
+__pycache__/
+*.pyc
+
+# third-party engine (cloned by install.sh) and large/runtime data
+engine/
+data/
+outputs/
+logs/
+voices/
